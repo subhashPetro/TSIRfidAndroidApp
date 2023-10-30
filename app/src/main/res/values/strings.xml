@@ -42,5 +42,23 @@
         sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+
     </string>
+
+    <string name="scan_button_text">Scan</string>
+    <string name="scan_start_button_text">Start</string>
+    <string name="scan_stop_button_text">Stop</string>
+    <string name="clear_button_text">Clear</string>
+    <string name="power_level_label_text">dBm</string>
+    <string name="uniques_only_title">Uniques</string>
+    <string name="use_fast_id_title">Fast Id</string>
+    <string name="tag_list_title">Transponders</string>
+    <string name="barcode_list_title">Barcodes</string>
+
+    <string name="connect_reader_menu_item_text">Connect Reader</string>
+    <string name="change_reader_menu_item_text">Change Reader</string>
+    <string name="disconnect_reader_menu_item_text">Disconnect Reader</string>
+    <string name="reset_reader_menu_item_text">Reset Reader</string>
+
+
 </resources>
