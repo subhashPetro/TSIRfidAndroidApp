@@ -1,0 +1,24 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.uk.tsl.rfid.devicelist" >
+4
+5    <uses-sdk android:minSdkVersion="15" />
+5-->C:\Users\admin\Downloads\Android SDK v2.6.0\DeviceList\src\main\AndroidManifest.xml
+6
+7    <application android:allowBackup="true" >
+7-->C:\Users\admin\Downloads\Android SDK v2.6.0\DeviceList\src\main\AndroidManifest.xml:4:5-12:19
+7-->C:\Users\admin\Downloads\Android SDK v2.6.0\DeviceList\src\main\AndroidManifest.xml:5:9-35
+8        <activity
+8-->C:\Users\admin\Downloads\Android SDK v2.6.0\DeviceList\src\main\AndroidManifest.xml:7:9-11:20
+9            android:name="com.uk.tsl.rfid.DeviceListActivity"
+9-->C:\Users\admin\Downloads\Android SDK v2.6.0\DeviceList\src\main\AndroidManifest.xml:7:19-68
+10            android:configChanges="keyboardHidden|orientation"
+10-->C:\Users\admin\Downloads\Android SDK v2.6.0\DeviceList\src\main\AndroidManifest.xml:9:14-64
+11            android:label="@string/select_reader"
+11-->C:\Users\admin\Downloads\Android SDK v2.6.0\DeviceList\src\main\AndroidManifest.xml:10:14-51
+12            android:theme="@android:style/Theme.DeviceDefault.Light" >
+12-->C:\Users\admin\Downloads\Android SDK v2.6.0\DeviceList\src\main\AndroidManifest.xml:8:14-70
+13        </activity>
+14    </application>
+15
+16</manifest>

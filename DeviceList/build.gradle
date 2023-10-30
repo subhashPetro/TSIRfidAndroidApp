@@ -1,0 +1,32 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace 'com.uk.tsl.rfid.devicelist'
+    compileSdkVersion 33
+
+    compileOptions {
+
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+
+    }
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 33
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.recyclerview:recyclerview-selection:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    compileOnly project(':Rfid.AsciiProtocol-Library')
+}
